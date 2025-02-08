@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const RightBar = () => {
   return (
-    <div className='pt-4 flex flex-col gap-4 sticky top-0 h-max'>
+    <div className='pt-4 flex flex-col gap-2 sticky top-0 h-max'>
       <Search/>
       <PopularTags/>
       <Recommendation/>
@@ -16,7 +16,7 @@ const RightBar = () => {
         <Link href="/">Cookie Policy</Link>
         <Link href="/">Accessibility</Link>
         <Link href="/">Ads Info</Link>
-        <span>© 2025 L Corp.</span>
+        <span>© 2025 X Corp.</span>
       </div>
     </div>
   )
